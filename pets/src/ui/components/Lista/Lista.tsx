@@ -16,6 +16,7 @@ interface ListaProps{
 
 export default function Lista(props: ListaProps){
     const tamanhoMaximoTexto = 200;
+    
     return (
         <ListaStyled>
             {props.pets.map(pet => (
